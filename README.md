@@ -13,6 +13,11 @@ For this assignment, we are working on a music-streaming system(like Spotify). T
 6. <b>Loops</b>: Few of the old playlists are found to have a loop or a cycle in the linked list due to buggy implementation.
 
 
+# Choice of data structures for implementing the problem at hand:
+1) <b>Playlist</b>: The ideal data structure of choice for modelling a playlist would be a doubly linked list. This would come in handy as new songs can be added or the old ones can be removed from the playlist at any point in a doubly linked list. Also, it should support playing(querying) the previous song, next song and (current + i)’th song on the playlist.
+2) <b>Play Queue</B: A queue abstract data-type to follow FIFO. The choice of implementation of the ADT can be either a linked list or an array. For this assignment, we stick on to the linked list implementation of the queue as it gives us the flexibility of dynamically changing the size of the data structure.
+
+
 # Learning Outcomes
 
 1. Cope with abstractions depicting real-world entities.
@@ -22,3 +27,5 @@ For this assignment, we are working on a music-streaming system(like Spotify). T
 5. Getting familiar with the various traversal techniques of a linked list (Eg: slow-fastpointer traversals)
 6. Rearranging the linked list pointers.
 7. Optional: Recursive algorithms on linked lists. Eg: Reversing a linked list is easier tocode using recursion.
+
+
