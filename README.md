@@ -9,8 +9,13 @@ For this assignment, we are working on a music-streaming system(like Spotify). T
 2. <b>Playlist</b>: A playlist is a collection of songs. We can add songs, delete songs and search for songs from it.
 3. <b>Play Queue</b>: A song queue, which specifies the prioritised order in which the songs need to play next. If the queue is non-empty, the next song to be played is always from this queue and not from the playlist.
 4. <b>Shuffling</b>: Shuffle the order of songs stored in the playlist. Shuffling is done by a combination of KSwap and reverse operations.
-5. <b>KSwap</b>: Given an integer k, swap the node at position i with the node at position i+k up to the point where i+k is less than the size of the linked list i.e swap for the nodes that satisfy: 0 <= i+k < n where n is the length of the linked list, given 0 <= i < n and 0 <= k < n
-6. <b>Loops</b>: Few of the old playlists are found to have a loop or a cycle in the linked list due to buggy implementation.
+5. <b>KSwap</b>: Given an integer k, swap the node at position i with the node at position i+k up to the point where i+k is less than the size of the linked list i.e swap for the nodes that satisfy: 0 <= i+k < n where n is the length of the linked list, given 0 <= i < n and 0 <= k < n. <br>
+
+![k-swap](https://user-images.githubusercontent.com/103581128/201145106-2ef97bc7-4fb8-41b1-aea7-0caaaebd8d4c.png)
+
+
+6. <b>Loops</b>: Few of the old playlists are found to have a loop or a cycle in the linked list due to buggy implementation.<br>
+![loop](https://user-images.githubusercontent.com/103581128/201145428-ea2a5229-23c3-4373-bc37-68b3786de139.png)
 
 
 # Choice of data structures for implementing the problem at hand:
