@@ -1,0 +1,25 @@
+24
+create_playlist
+create_music_queue
+add_song 1 -1
+add_song 2 -1
+add_song 3 -1
+add_song 4 -1
+display_playlist
+delete_song 2
+display_playlist
+play_next
+display_playlist 
+search_and_play 3
+play_previous
+play_previous
+play_previous
+play_next
+play_next
+insert_to_queue 1
+display_playlist
+shuffle 1
+display_playlist
+debug 5 3
+delete_playlist
+clear_music_queue
